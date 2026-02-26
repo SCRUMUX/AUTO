@@ -1,0 +1,8 @@
+node_modules/
+storybook-static/
+.cache/
+*.tgz
+.DS_Store
+Thumbs.db
+.env
+.env.local

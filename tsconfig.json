@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ai-ds/core": ["./node_modules/@ai-ds/core/src/index.ts"],
+      "@ai-ds/core/components": ["./node_modules/@ai-ds/core/components/index.ts"],
+      "@ai-ds/core/components/*": ["./node_modules/@ai-ds/core/components/primitives/*/index.ts"],
+      "@ai-ds/core/icons": ["./node_modules/@ai-ds/core/components/icons/index.tsx"],
+      "@ai-ds/core/hooks": ["./node_modules/@ai-ds/core/hooks/index.ts"],
+      "@ai-ds/core/hooks/*": ["./node_modules/@ai-ds/core/hooks/*.ts"],
+      "@ai-ds/core/shared": ["./node_modules/@ai-ds/core/components/primitives/_shared/index.ts"],
+      "@ai-ds/core/layout": ["./node_modules/@ai-ds/core/layout/index.ts"],
+      "@ai-ds/core/behaviors": ["./node_modules/@ai-ds/core/behaviors/index.ts"],
+      "@ai-ds/core/utils": ["./node_modules/@ai-ds/core/utils/token-resolver.ts"]
+    }
+  },
+  "include": [
+    "pages/**/*.ts",
+    "pages/**/*.tsx",
+    ".storybook/**/*.ts",
+    ".storybook/**/*.tsx"
+  ],
+  "exclude": ["node_modules", "dist"]
+}
