@@ -8,10 +8,10 @@
     "setup": "npm install && npx storybook dev -p 6006",
     "storybook": "storybook dev -p 6006",
     "storybook:build": "storybook build",
-    "update-core": "npm install git+https://github.com/SCRUMUX/AICADS-.git#v0.2.0 && echo Core updated!"
+    "update-core": "npm install git+https://github.com/SCRUMUX/AICADS-.git#v0.3.0 && echo Core updated!"
   },
   "dependencies": {
-    "@ai-ds/core": "git+https://github.com/SCRUMUX/AICADS-.git#v0.2.0"
+    "@ai-ds/core": "git+https://github.com/SCRUMUX/AICADS-.git#v0.3.0"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^8.6.14",
